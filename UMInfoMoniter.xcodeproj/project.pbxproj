@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6250D1CB303C1975EF083427 /* Pods_UMInfoMoniter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F90DE40E480AEA8245F3A98 /* Pods_UMInfoMoniter.framework */; };
 		7634F77A2724309400528D4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7634F7792724309400528D4B /* AppDelegate.m */; };
-		7634F77D2724309400528D4B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7634F77C2724309400528D4B /* SceneDelegate.m */; };
 		7634F7802724309400528D4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7634F77F2724309400528D4B /* ViewController.m */; };
 		7634F7832724309400528D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7634F7812724309400528D4B /* Main.storyboard */; };
 		7634F7852724309800528D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7634F7842724309800528D4B /* Assets.xcassets */; };
@@ -37,11 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098D6FF51F319A1BFC45FFD6 /* Pods-UMInfoMoniter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMInfoMoniter.release.xcconfig"; path = "Target Support Files/Pods-UMInfoMoniter/Pods-UMInfoMoniter.release.xcconfig"; sourceTree = "<group>"; };
+		4F90DE40E480AEA8245F3A98 /* Pods_UMInfoMoniter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMInfoMoniter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7634F7752724309400528D4B /* UMInfoMoniter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMInfoMoniter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7634F7782724309400528D4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7634F7792724309400528D4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7634F77B2724309400528D4B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		7634F77C2724309400528D4B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		7634F77E2724309400528D4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7634F77F2724309400528D4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7634F7822724309400528D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,7 @@
 		7634F79A2724309900528D4B /* UMInfoMoniterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMInfoMoniterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7634F79E2724309900528D4B /* UMInfoMoniterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMInfoMoniterUITests.m; sourceTree = "<group>"; };
 		7634F7A02724309900528D4B /* UMInfoMoniterUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMInfoMoniterUITestsLaunchTests.m; sourceTree = "<group>"; };
+		A5FDF8309E037B1924C14145 /* Pods-UMInfoMoniter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UMInfoMoniter.debug.xcconfig"; path = "Target Support Files/Pods-UMInfoMoniter/Pods-UMInfoMoniter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6250D1CB303C1975EF083427 /* Pods_UMInfoMoniter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26001C22353E980391D16835 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F90DE40E480AEA8245F3A98 /* Pods_UMInfoMoniter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43F219EC6E4404E19B095493 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5FDF8309E037B1924C14145 /* Pods-UMInfoMoniter.debug.xcconfig */,
+				098D6FF51F319A1BFC45FFD6 /* Pods-UMInfoMoniter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7634F76C2724309400528D4B = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +107,8 @@
 				7634F7932724309900528D4B /* UMInfoMoniterTests */,
 				7634F79D2724309900528D4B /* UMInfoMoniterUITests */,
 				7634F7762724309400528D4B /* Products */,
+				43F219EC6E4404E19B095493 /* Pods */,
+				26001C22353E980391D16835 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +127,6 @@
 			children = (
 				7634F7782724309400528D4B /* AppDelegate.h */,
 				7634F7792724309400528D4B /* AppDelegate.m */,
-				7634F77B2724309400528D4B /* SceneDelegate.h */,
-				7634F77C2724309400528D4B /* SceneDelegate.m */,
 				7634F77E2724309400528D4B /* ViewController.h */,
 				7634F77F2724309400528D4B /* ViewController.m */,
 				7634F7812724309400528D4B /* Main.storyboard */,
@@ -143,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7634F7A42724309900528D4B /* Build configuration list for PBXNativeTarget "UMInfoMoniter" */;
 			buildPhases = (
+				3A2641FEE716309BF48FBA63 /* [CP] Check Pods Manifest.lock */,
 				7634F7712724309400528D4B /* Sources */,
 				7634F7722724309400528D4B /* Frameworks */,
 				7634F7732724309400528D4B /* Resources */,
+				685C7B9AB5768BB2B82F8157 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,6 +282,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A2641FEE716309BF48FBA63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UMInfoMoniter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		685C7B9AB5768BB2B82F8157 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMInfoMoniter/Pods-UMInfoMoniter-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UMInfoMoniter/Pods-UMInfoMoniter-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UMInfoMoniter/Pods-UMInfoMoniter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7634F7712724309400528D4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,7 +332,6 @@
 				7634F7802724309400528D4B /* ViewController.m in Sources */,
 				7634F77A2724309400528D4B /* AppDelegate.m in Sources */,
 				7634F78B2724309800528D4B /* main.m in Sources */,
-				7634F77D2724309400528D4B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +501,7 @@
 		};
 		7634F7A52724309900528D4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FDF8309E037B1924C14145 /* Pods-UMInfoMoniter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,6 +528,7 @@
 		};
 		7634F7A62724309900528D4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098D6FF51F319A1BFC45FFD6 /* Pods-UMInfoMoniter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
